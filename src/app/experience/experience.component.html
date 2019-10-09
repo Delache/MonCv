@@ -1,8 +1,13 @@
-<h3>Expérience<h3><hr>
-    <div *ngFor= "let ex of exp">
-            <h4>{{ex.title}}</h4>
+<h2>Expérience<h2><hr>
+    <div>
+            <h4>{{experience[this.scroll].title}}</h4>
             <ul>
-              <li>{{ex.society}} - {{ex.date}}</li>
-              <li>{{ex.description}}</li>
+              <li>{{experience[this.scroll].society}} - {{experience[this.scroll].date}}</li>
+              <li>{{experience[this.scroll].description}}</li>
             </ul>
     </div>
+
+    <button (click)='previous()'>Précedant</button>
+    <button (click)='next()'>Suivant</button>
+
+
