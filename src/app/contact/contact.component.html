@@ -1,0 +1,49 @@
+<div id="contact12">
+  <h3>INFOS RAPIDES</h3><br>
+  <div id="contactBoite">
+    <ul id="contact1">
+      <li class="gras">Téléphone</li>
+      <li class="gras">E-mail</li>
+      <li class="gras">Site</li>
+      <li class="gras">Adresse</li>
+      <li>&nbsp;</li>
+    </ul>
+    <ul id="contact2">
+      <li>06 16 69 09 01</li>
+      <li><a href="mailto:erique.delacharlerie@gmail.com">erique.delacharlerie@gmail.com</a></li>
+      <li>http://www.erique.delacharlerie.com</li>
+      <li>20, ch du lavoir de Menusey</li>
+      <li>33670 Sadirac, France</li>
+    </ul>
+  </div>
+</div>
+
+<div id="formulaire">
+  <h3>ME CONTACTER</h3><br>
+  <form>
+    <fieldset>
+      <legend>Vos coordonnées</legend>
+      <input class="radio" type="radio" name="civilite" value="m"  checked/>M.
+      <input class="radio" type="radio" name="civilite" value="mme"/>Mme
+      <input class="align" type="text" name="name" placeholder="Nom" autofocus requiered/>
+      <label for="societe">Société</label>
+      <input class="align"id="societe" type="text" name="societe" requiered/>
+      <label id="service">Service ou fonction</label>
+      <input class="align"id="service" type="text" name="service" placeholder="Optionnel"/>
+      <label id="mail">Email</label>
+      <input class="align"id="mail" type="email" name="mail" placeholder="@"/>
+      <label id="tel">Téléphone</label>
+      <input class="align"id="tel" type="tel" name="tel" placeholder="&#9742;" requiered/>
+    </fieldset>
+    <label for="message">Votre demande</label>
+    <textarea class="align"id="message" placeholder="Bonjour,"></textarea>
+  </form>
+</div>
+<button id="open-modal">Envoyer</button>
+<div id="modal" class="modal">
+  <div class="modal-inner content center">
+    <h2>Merci!</h2>
+    <p>Votre message a bien été envoyé.</p>
+    <button id="close-modal">Fermer</button>
+  </div>
+</div>
