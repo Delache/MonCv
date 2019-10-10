@@ -1,12 +1,14 @@
 a.pdf{
   text-decoration: none;
-  color: white;
+  color: #FFE400;
   position:fixed;
   top: 50px;
   right: 50px;
-  border: 1px solid white;
+  border: 1px solid #ffe400;
   padding: 5px 25px;
 }
 a.pdf:hover{
-  color:  #186363;;
+  color:  #FF652F;
+  border: 1px solid #FF652F;
+
 }

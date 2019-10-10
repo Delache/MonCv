@@ -1,13 +1,9 @@
 <h2>Expérience<h2><hr>
-    <div>
-            <h4>{{experience[this.scroll].title}}</h4>
-            <ul>
-              <li>{{experience[this.scroll].society}} - {{experience[this.scroll].date}}</li>
-              <li>{{experience[this.scroll].description}}</li>
-            </ul>
-    </div>
+  <h4>{{experience[this.scroll].title}}</h4>
+  <ul>
+    <li>{{experience[this.scroll].society}} - {{experience[this.scroll].date}}</li>
+    <li>{{experience[this.scroll].description}}</li>
+  </ul>
 
-    <button (click)='previous()'>Précedant</button>
-    <button (click)='next()'>Suivant</button>
-
-
+  <img src="../../assets/images/arrowLeft.png" alt="arrowLeft" (click)='previous()'>
+  <img src="../../assets/images/arrowRight.png" alt="arrowRight" (click)='next()'>

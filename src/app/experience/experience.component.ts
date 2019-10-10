@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
@@ -40,6 +41,7 @@ export class ExperienceComponent implements OnInit {
       society: 'Triangle',
       date: 'juillet 2000 à septembre 2001',
       description: 'Electricité domestique, navale et cablage industriel'} ];
+
 
   constructor() { }
 
