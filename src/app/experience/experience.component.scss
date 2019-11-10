@@ -1,3 +1,18 @@
-li, h2{
-  color: #FF652F
+ul{
+  width: 75%;
+  margin: auto;
+}
+.arrowLeft, .arrowRight{
+  width: 3vw;
+
+  margin-top: -90px;
+
+}
+.arrowLeft{
+  margin-left: 15px;
+
+}
+.arrowRight{
+  margin-right: 15px;
+  float: right;
 }

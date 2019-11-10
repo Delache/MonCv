@@ -1,9 +1,20 @@
-<h2>Expérience<h2><hr>
-  <h4>{{experience[this.scroll].title}}</h4>
-  <ul>
-    <li>{{experience[this.scroll].society}} - {{experience[this.scroll].date}}</li>
-    <li>{{experience[this.scroll].description}}</li>
-  </ul>
+<div class="exp">
+  <h3>Expérience</h3><hr>
 
-  <img src="../../assets/images/arrowLeft.png" alt="arrowLeft" (click)='previous()'>
-  <img src="../../assets/images/arrowRight.png" alt="arrowRight" (click)='next()'>
+  <div>
+    <h4>{{experience[this.scroll].title}}</h4>
+    <ul>
+      <li>{{experience[this.scroll].society}} - {{experience[this.scroll].date}}</li>
+      <li>{{experience[this.scroll].description}}</li>
+    </ul>
+  </div>
+
+  <div>
+    <button class="btn waves-effect waves-light" (click)='previous()'>
+        <i class="material-icons left"></i>Précédent
+    </button>
+    <button class="btn waves-effect waves-light" type="submit" name="action"  (click)='next()'>
+        <i class="material-icons right"></i>Suivant
+    </button>
+  </div>
+</div>

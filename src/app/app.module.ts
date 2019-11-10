@@ -10,6 +10,8 @@ import { FormationComponent } from './formation/formation.component';
 import { ContactComponent } from './contact/contact.component';
 import { CompetenceComponent } from './competence/competence.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
+import { NavComponent } from './nav/nav.component';
+import { IntroductionComponent } from './introduction/introduction.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
     FormationComponent,
     ContactComponent,
     CompetenceComponent,
-    HobbiesComponent
+    HobbiesComponent,
+    NavComponent,
+    IntroductionComponent,
   ],
   imports: [
     BrowserModule,

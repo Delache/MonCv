@@ -7,26 +7,28 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class FormationComponent implements OnInit {
-  formations = [{
-    title: 'Developpement',
+  formations = [
+  { title: 'Developpeur web',
     etablissement: 'Wild Code School',
     date: 'septembre 2019 à juin 2020',
-    description: 'HTML5 / CSS3<br>JavaScript / PHP<br>Python'},
+    description: 'JavaScript -- Angular -- NodeJs -- HTML -- Python'},
 
-  { title: 'Auto-formation; plateformes en ligne',
+  { title: 'Developpeur web',
     etablissement : 'Plateformes en ligne',
     date: 'depuis mai 2019',
-    description: ' Openclassrooms -FranceIoI'},
+    description: 'Openclassrooms -- Udemy -- CodeWars -- CodeAcademy -- FranceIoI'},
 
   { title: 'Bts informatique industrielle',
     etablissement: 'Cned',
     date: 'septembre 2000 à septembre 2001',
-    description: '1°année validée'},
+    description: 'première année'},
 
   { title: 'Baccalauréat STI',
     etablissement: 'Gustave Eiffel',
     date: 'juillet 2000',
     description: 'génie éléctrotechnique'} ];
+
+
   constructor() { }
 
   ngOnInit() {
