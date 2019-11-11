@@ -2,9 +2,19 @@ body{
   background-color: #E6EEF2;
   font-family: 'Libre Caslon Display', serif;
 }
-p, li a{
+p, a, li{
   font-size: 20px;
 }
 
-
-
+.cartouche{
+  margin-top:-130px;
+  width: 35%;
+  height: 48vh;
+  float: right;
+  margin-right: 25px;
+  padding: 0 20px;
+  background-color:rgba(255, 255, 255, 0.2);
+}
+.cartouche-contain{
+  overflow: scroll;
+}

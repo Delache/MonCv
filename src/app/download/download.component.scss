@@ -10,21 +10,18 @@
 a {
   color: #1F272D;
   text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
-  padding: 0 26px;
-  margin: 0;
   position: absolute;
-  top: 150px;
-  right: 80px;
+  top: 130px;
+  right: 70px;
 }
 
 a:before,
 a:after {
-  content: 'Mon Cv';
-  padding: 5px 20px;
+  content: 'Cv Pdf';
   position: absolute;
-  display: block;
+  padding: 0 23px;
   border: 3px solid #1F272D;
   transform: translateX(-50%) translateY(-50%) rotate(0deg);
   animation: 10s infinite alternate ease-in-out tipsy;
@@ -36,6 +33,6 @@ a:before {
 }
 
 a:after {
-  border-color:#3B4C54 rgba(0, 0, 0, 0) #3B4C54 #1F272D;
+  border-color:#3B4C54 #1F272D #3B4C54 #1F272D;
   box-shadow: 10px 10px 10px rgba(46, 46, 49, .8);
 }

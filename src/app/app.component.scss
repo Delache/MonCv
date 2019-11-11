@@ -1,9 +1,8 @@
 .contain{
   display: flex;
   flex-direction: row;
-  height: all;
+  height:88vh;
 }
-
 .lateral{
   flex: 0.2;
   background-color:#6B7D89;
@@ -11,6 +10,9 @@
 }
 .main{
   flex: 0.8;
-  margin:0;
+  margin:8px;
   padding:5px;
+  background-image: url('../assets/images/banniere2.jpg');
+  background-size: cover;
 }
+

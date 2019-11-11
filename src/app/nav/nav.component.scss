@@ -1,10 +1,24 @@
 .nav-wrapper{
   background-color: #1F272D;
+  height:7vh;
 }
 a:hover{
 color: #E6EEF2;
 }
-
+#avatar{
+ position: absolute;
+ right: 0;
+ height: 7vh;
+ width: 7vh;
+ transition: all .5s ease-in-out;
+}
+#avatar:hover{
+  width: 200px;
+  height: 200px;
+  transform: scale(1.1);
+  border: 8px solid #E6EEF2;
+  z-index: 1;
+}
 .router-link-active{
   background-color:#3B4C54;
 }

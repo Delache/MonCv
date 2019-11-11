@@ -1,10 +1,19 @@
 .foot{
   position: fixed;
+  vertical-align: middle;
   bottom: 0;
   display: flex;
   justify-content: space-around;
   background-color: #1F272D;
+  height: 5vh;
 }
 a:hover{
-  font-size: 20px;
+color: #E6EEF2;
+background-color:#3B4C54
 }
+a{
+  padding: 0 50px;
+  color: white;
+
+}
+

@@ -2,17 +2,17 @@ ul{
   width: 75%;
   margin: auto;
 }
-.arrowLeft, .arrowRight{
-  width: 3vw;
-
-  margin-top: -90px;
-
+.button{
+  justify-content: center;
+  position: fixed;
+  padding: 25px;
+  margin: 0 80px;
+  top: 68vh;
 }
-.arrowLeft{
-  margin-left: 15px;
-
+.btn{
+  background-color: #1F272D;
+  margin: 10px;
 }
-.arrowRight{
-  margin-right: 15px;
-  float: right;
+.btn:hover{
+  background-color: #3B4C54;
 }
