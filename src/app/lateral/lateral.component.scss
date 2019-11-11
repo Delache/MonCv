@@ -1,0 +1,14 @@
+.collection{
+  border:none;
+}
+.collection-item{
+  margin-bottom: 5px;
+  color:white;
+  background-color: #1F272D;
+  border: none;
+}
+.collection-item:hover{
+  -webkit-transform: rotateX(20deg);
+  transform: rotateX(20deg);
+  background-color:#3B4C54;
+}

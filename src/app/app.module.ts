@@ -12,6 +12,7 @@ import { CompetenceComponent } from './competence/competence.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { NavComponent } from './nav/nav.component';
 import { IntroductionComponent } from './introduction/introduction.component';
+import { LateralComponent } from './lateral/lateral.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { IntroductionComponent } from './introduction/introduction.component';
     HobbiesComponent,
     NavComponent,
     IntroductionComponent,
+    LateralComponent,
   ],
   imports: [
     BrowserModule,
