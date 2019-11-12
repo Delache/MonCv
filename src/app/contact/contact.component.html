@@ -16,7 +16,6 @@
         <li>33670 Sadirac, France</li>
       </ul>
     </div>
-  <button class="btn waves-effect waves-light">
-      <i class="material-icons left"></i>Me contacter
-  </button>
-</div>
+    <button mat-flat-button  color="Connexion" (click)="showModal()">Connexion</button>
+  </div>
+  <app-form [(isModalVisible)]="isModalVisible" *ngIf="isModalVisible" ></app-form>

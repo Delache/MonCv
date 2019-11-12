@@ -13,6 +13,17 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
 import { NavComponent } from './nav/nav.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { LateralComponent } from './lateral/lateral.component';
+import { FormComponent } from './form/form.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -28,10 +39,19 @@ import { LateralComponent } from './lateral/lateral.component';
     NavComponent,
     IntroductionComponent,
     LateralComponent,
+    FormComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatSliderModule,
+    MatCardModule,
+    MatSelectModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
