@@ -17,9 +17,7 @@
   background-color: #f9f9f9;
   display:flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px ;
+  border-radius: 5px ;
   border:3px  #3B424E;
   -webkit-border-radius: 10px ;
   -moz-border-radius: 10px ;
@@ -27,50 +25,13 @@
   -o-border-radius: 10px ;
   box-shadow: 6px 6px 6px #C8C8C8;
   z-index: 1;
-
 }
 
 // Div Name
 
 .div-name > * {
 
-  width:100%;
-
-// Div Choice
-}
-.div-choice > *{
-  width: 100%;
-}
-
-//Div password
-.div-password {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 3rem;
-
-}
-
-
-.div-password > * {
-  width: 100%;
-}
-
-.example-right-align {
-  text-align: right;
-}
-
-input.example-right-align::-webkit-outer-spin-button,
-input.example-right-align::-webkit-inner-spin-button {
-  display: none;
-}
-
-input.example-right-align {
-  -moz-appearance: textfield;
-}
-
-// button
-.mat-flat-button {
-  background-color:#f76c6c;
-  color: #f9f9f9;
-
+  width:80%;
+display: flex;
+justify-content: space-around;
 }
