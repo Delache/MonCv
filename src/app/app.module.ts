@@ -11,7 +11,6 @@ import { ContactComponent } from './contact/contact.component';
 import { CompetenceComponent } from './competence/competence.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { NavComponent } from './nav/nav.component';
-import { IntroductionComponent } from './introduction/introduction.component';
 import { LateralComponent } from './lateral/lateral.component';
 import { FormComponent } from './form/form.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -37,7 +36,6 @@ import { MatInputModule } from '@angular/material/input';
     CompetenceComponent,
     HobbiesComponent,
     NavComponent,
-    IntroductionComponent,
     LateralComponent,
     FormComponent,
   ],
